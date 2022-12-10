@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.CardView" parent="CardView">
+        <item name="android:layout_width">309dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="cardCornerRadius">10dp</item>
+    </style>
+
+    <style name="Pink.CardView" parent="Base.CardView">
+        <item name="cardBackgroundColor">@color/pink</item>
+    </style>
+
+    <style name="Blue.CardView" parent="Base.CardView">
+        <item name="cardBackgroundColor">@color/blue</item>
+    </style>
+</resources>
