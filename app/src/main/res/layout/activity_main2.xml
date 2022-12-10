@@ -35,7 +35,7 @@
         android:layout_marginTop="122dp"
         android:layout_marginStart="25dp"/>
 
-    <ImageView
+    <SearchView
         android:id="@+id/tab2"
         android:background="@drawable/rounder_tab"
         android:layout_width="310dp"
@@ -113,12 +113,9 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cartab"
         style="@style/Pink.CardView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="448dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="26dp"
+        app:layout_constraintTop_toBottomOf="@id/bicycletab"
+        app:layout_constraintStart_toStartOf="@id/bicycletab"
+        android:layout_marginTop="47dp"
         >
 
         <ImageView
@@ -152,12 +149,9 @@
     <androidx.cardview.widget.CardView
         style="@style/Blue.CardView"
         android:id="@+id/cartab2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="614dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="26dp">
+        app:layout_constraintTop_toBottomOf="@id/cartab"
+        app:layout_constraintStart_toStartOf="@id/cartab"
+        android:layout_marginTop="46dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -186,8 +180,5 @@
         app:layout_constraintTop_toTopOf="@id/cartab2"
         android:layout_marginStart="178dp"
         android:layout_marginTop="32dp"/>
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
